@@ -1,0 +1,100 @@
+.container-sm{
+    height: 200px;
+    background-image:url(nature.jpg);
+    background-size: cover;
+}
+.container info{
+    text-align: center;
+}
+#img1{
+    height: 20px;
+    width: 20px;
+}
+#img2{
+    height: 200px;
+}
+#img3{
+    height: 40px;
+    width: 40px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    width:500%px;
+    justify-content: space-between;
+}
+.navbar{
+    padding-top: 85px;
+}
+.navbarNav{
+    z-index: 1;
+}
+.card{
+    margin: 10px;
+}
+#card2{
+    margin: 5px;
+}
+.container1 .left{
+    width: 180px;
+    display: flex;
+    justify-content:space-between;
+}
+    
+.container1 .right{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.card2{
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#p1{
+    margin-bottom:0;
+}
+.container3{
+    justify-content: space-evenly;
+}
+.cards{
+    margin: 2px;
+}
+.gfg {
+    margin: 3%;
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.second-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+@media only screen and (max-width:576px){
+    .container1{
+        display:-webkit-inline-box;
+    }
+}
+@media only screen and (min-width:992px){
+    .container-fluid{
+        display: inline;
+    }
+    .container-fluid left{
+        display: inline;
+    }
+ .container-fluid left{
+        display: inline;
+    }
+}
